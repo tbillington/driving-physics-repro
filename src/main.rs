@@ -2,7 +2,7 @@ use bevy::prelude::*;
 use bevy_xpbd_3d::{prelude::*, PhysicsSchedule, PhysicsStepSet};
 
 fn main() {
-    println!("Hello, world!6");
+    println!("Hello, world!8");
     App::new()
         .insert_resource(SubstepCount(12))
         .add_plugins((DefaultPlugins, PhysicsPlugins::default()))
